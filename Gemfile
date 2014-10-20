@@ -39,3 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'passenger'
+gem 'rack-utf8_sanitizer'
+gem 'render_anywhere'

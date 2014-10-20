@@ -60,6 +60,8 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
+    rack-utf8_sanitizer (1.2.3)
+      rack (~> 1.0)
     rails (4.1.6)
       actionmailer (= 4.1.6)
       actionpack (= 4.1.6)
@@ -78,6 +80,8 @@ GEM
     rake (10.3.2)
     rdoc (4.1.2)
       json (~> 1.4)
+    render_anywhere (0.0.9)
+      rails (>= 3.0.7)
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -117,7 +121,9 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   passenger
+  rack-utf8_sanitizer
   rails (= 4.1.6)
+  render_anywhere
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
